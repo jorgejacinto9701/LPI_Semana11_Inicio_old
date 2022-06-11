@@ -59,7 +59,7 @@ public class FrmReporteGraficoPorEstadoAnio extends JFrame implements ActionList
 	 */
 	public FrmReporteGraficoPorEstadoAnio() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 826, 754);
+		setBounds(100, 100, 1149, 754);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -96,7 +96,7 @@ public class FrmReporteGraficoPorEstadoAnio extends JFrame implements ActionList
 		
 		panelReporte = new JPanel();
 		panelReporte.setBorder(new TitledBorder(new LineBorder(new Color(0, 0, 0)), "Reporte", TitledBorder.LEADING, TitledBorder.TOP, null, null));
-		panelReporte.setBounds(25, 144, 763, 541);
+		panelReporte.setBounds(25, 144, 1098, 541);
 		contentPane.add(panelReporte);
 		panelReporte.setLayout(new BorderLayout(0, 0));
 	}
